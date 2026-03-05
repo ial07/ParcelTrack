@@ -1,0 +1,33 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { Providers } from "./providers";
+import { Toaster } from "@/components/ui/sonner";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "ParcelTrack — Logistics Parcel Tracking",
+  description:
+    "Track your parcels in real-time with ParcelTrack. A modern logistics tracking system for seamless delivery management.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${inter.variable} font-sans antialiased`}>
+        <Providers>
+          {children}
+          <Toaster richColors position="top-right" />
+        </Providers>
+      </body>
+    </html>
+  );
+}
