@@ -56,7 +56,7 @@ The primary objective of this project is to showcase core professional engineeri
 
 | Tool                | Purpose                                     |
 | :------------------ | :------------------------------------------ |
-| **Next.js 14**      | Modern React Framework with App Router      |
+| **Next.js 16**      | Modern React Framework with App Router      |
 | **Tailwind CSS v4** | Utility-first CSS with next-gen performance |
 | **ShadCN UI**       | Premium, accessible UI components           |
 | **TanStack Query**  | Server state management and caching         |
@@ -66,7 +66,7 @@ The primary objective of this project is to showcase core professional engineeri
 
 | Tool                     | Purpose                                 |
 | :----------------------- | :-------------------------------------- |
-| **Laravel 11**           | Powerful PHP Web Framework              |
+| **Laravel 12**           | Powerful PHP Web Framework              |
 | **Laravel Sanctum**      | Secure API Token-based authentication   |
 | **Spatie Query Builder** | Declarative API filtering and sorting   |
 | **Swagger UI**           | Interactive API documentation (OpenAPI) |
@@ -99,8 +99,8 @@ graph TD
 
 ```text
 ParcelTrack/
-├── backend/            # Laravel 11 Source Code
-│   ├── app/            # Business logic, Repositories, Services
+├── backend/            # Laravel 12 Source Code
+│   ├── app/            # Business logic, Repositories,  Services
 │   ├── routes/         # API Route definitions
 │   └── database/       # Migrations and Seeders
 ├── frontend/           # Next.js 14 Source Code
